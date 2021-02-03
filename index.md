@@ -10,7 +10,7 @@ title: Top Page
 <ul>
     {% for post in site.posts %}
         <li>
-            <a href="{{ post.url | absolute_url }}">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }} - {{ post.title }}</a>
+            {{ post.date | date: "%Y-%m-%d %H:%M:%S" }} - <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
 </ul>
