@@ -8,7 +8,7 @@ title: Top Page
 
 ## Pages
 <ul>
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
