@@ -9,6 +9,17 @@ date: 2021-02-04 04:23:00 -0900
 Jekyll is one of the themplate which can be used in GitHub.io.
 
 ## Writing a New Post
+### Name of a New Post
+You should along with the following naming rule.
+```
+YYYY-MM-DD-Title-Of-New-Post.md
+YYYY-MM-DD-Title-Of-New-Post.html
+```
+- YYYY: year
+- MM: month
+- DD: day
+
+As you can see, it is not allowed to use '_' as spaces. `-` is only accepted.
 ### Markdown header
 To reflect the theme of Jekyll, you must write the following header in your file of posts.
 ```

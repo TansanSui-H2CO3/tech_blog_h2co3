@@ -6,7 +6,7 @@ title: Top Page
 # Top Page
 ## Introduction
 
-## Posts
+## Post List
 <ul>
     {% for post in site.posts %}
         <li>
