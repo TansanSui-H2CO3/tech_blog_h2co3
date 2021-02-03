@@ -1,6 +1,7 @@
 ---
 layout: default
-title: test page
+title: Top Page
 ---
 
-# hogehoge
+# Top Page
+## Introduction
