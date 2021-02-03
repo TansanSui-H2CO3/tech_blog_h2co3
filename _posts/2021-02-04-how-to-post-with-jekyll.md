@@ -19,7 +19,7 @@ YYYY-MM-DD-Title-Of-New-Post.html
 - MM: month
 - DD: day
 
-As you can see, it is not allowed to use '_' as spaces. `-` is only accepted.
+As you can see, it is not allowed to use `_` as spaces. `-` is only accepted.
 ### Markdown header
 To reflect the theme of Jekyll, you must write the following header in your file of posts.
 ```
