@@ -47,12 +47,14 @@ vi ~/.ssh/config
 
 - Edit as follows.
 ```
+# public SSH configuration
 Host github_public
 HostName github.com
 User git
 IdentifierFile ~/.ssh/public_rsa
 IdentitiesOnly yes
 AddKeysToAgent yes
+# private SSH configuration
 Host github_private
 HostName github.com
 User git
