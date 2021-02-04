@@ -4,7 +4,7 @@ title: Top Page
 ---
 
 # {{ page.title }}
-## Introduction
+## About Me
 
 ## Recent 5 Posts
 <ul>

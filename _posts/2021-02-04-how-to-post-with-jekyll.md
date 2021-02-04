@@ -31,9 +31,9 @@ root
 ```
 
 ## Writing a New Post
-### Location of files of post
+### Location of Files
 Files of post need to be located in `_posts` folder.
-### Name of a New Post
+### Naming
 You should along with the following naming rule.
 ```
 YYYY-MM-DD-Title-Of-Post.md
@@ -45,7 +45,7 @@ YYYY-MM-DD-Title-Of-Post.html
 - Title-Of-Post: title of post
 
 As you can see, it is not allowed to use `_` as spaces. `-` is only accepted. In addition, the post is published as `{base-link}/YYYY/MM/DD/Title-Of-Post.html`
-### Head of Files of Post
+### Head of Files
 To reflect the theme of jekyll and to add some features to posts, you must write the following header in your files of post.
 ```
 ---
@@ -70,10 +70,11 @@ permalink: /hoge
     - You can set tags of the new post like categories, but URL of the new post is not changed.
 - permalink
     - You can set any URL. If you write `permalink: /hoge`, the new post is published as `{base-link}/hoge`.
+
+## Refering Images
 ## Refering the Other Posts
 
 # Conclusion
-I was sooooooooo frustrated.
 
 # Reference
 - [Adding a new post to your site](https://docs.github.com/en/github/working-with-github-pages/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site)
