@@ -44,6 +44,7 @@ After that, registering the SSH key to GitHub account (Settings -> SSH and GPG k
 ```
 vi ~/.ssh/config
 ```
+
 - Edit as follows.
 ```
 Host github_public
@@ -67,6 +68,7 @@ You cannot use `git clone git@github.com:[userName]/[repositoryName]`. You shoul
 ```
 $ git clone git@github_public:[userName]/[repositoryName]
 ```
+
 - Clone as private account...
 ```
 $ git clone git@github_private:[userName]/[repositoryName]
@@ -75,24 +77,27 @@ $ git clone git@github_private:[userName]/[repositoryName]
 ## Change `.gitconfig`
 To manage multiple account, you should not set global user, but local user.
 1. Move to repository
+
 2. Delete global user information
 ```
 git config --global --unset user.name
 git config --global --unser user.email
 ```
+
 3. Set local user's name, email, insteadOf
-- If the repository is for public account...
-```
-git config --local user.name "Your public name"
-git config --local user.email "Your public e-mail address"
-git config --local url."github_public".insteadOf "git@github.com"
-```
-- If the repository is for private account...
-```
-git config --local user.name "Your private name"
-git config --local user.email "Your private e-mail address"
-git config --local url."github_private".insteadOf "git@github.com"
-```
+    - If the repository is for public account...
+    ```
+    git config --local user.name "Your public name"
+    git config --local user.email "Your public e-mail address"
+    git config --local url."github_public".insteadOf "git@github.com"
+    ```
+
+    - If the repository is for private account...
+    ```
+    git config --local user.name "Your private name"
+    git config --local user.email "Your private e-mail address"
+    git config --local url."github_private".insteadOf "git@github.com"
+    ```
 
 Since you should register the above information when cloning repositories, it is recommended to create alias in `.bash_profile`.
 
