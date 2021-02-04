@@ -53,7 +53,6 @@ User git
 IdentifierFile ~/.ssh/public_rsa
 IdentitiesOnly yes
 AddKeysToAgent yes
-
 Host github_private
 HostName github.com
 User git
