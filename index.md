@@ -16,5 +16,5 @@ title: Top Page
 </ul>
 
 ## Search Posts
-- [Archives](/archives)
-- Tags: []()
+- [Archives](/tech_blog_h2co3/archives)
+- [Tags](/tech_blog_h2co3/tags)
