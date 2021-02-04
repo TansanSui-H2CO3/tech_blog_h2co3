@@ -4,3 +4,8 @@ author: TansanSui-H2CO3
 description: Make It Easy Togather
 google_analytics: UA-188939680-1
 logo: assets/img/tansansui.png
+avatar: assets/img/tansansui.png
+menu:
+  home: /
+  archives: /archives
+  tags: /tags
