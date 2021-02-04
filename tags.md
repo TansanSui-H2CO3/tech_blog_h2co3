@@ -8,7 +8,7 @@ permalink: /tags
 <ul>
     {% for tag in site.tags %}
         <li>
-            <a href="{{ site.baseurl }}/tags#{{ tag[0] }}">{{ tag[0] }}({{ tag[1] | size }})</a>
+            <a href="{{ site.baseurl }}/tags#{{ tag[0] }}">{{ tag[0] }} ({{ tag[1] | size }})</a>
         </li>
     {% endfor %}
 </ul>
