@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Manage Multiple Git Account Automatically
+title: Manage Multiple Git Accounts Automatically
 date: 2021-02-04 23:22:00 -0900
 tags: git
 ---
@@ -46,7 +46,7 @@ vi ~/.ssh/config
 ```
 - Edit as follows.
 ```
-# public ssh config
+#public ssh config
 Host github_public
 HostName github.com
 User git
@@ -54,7 +54,7 @@ IdentifierFile ~/.ssh/public_rsa
 IdentitiesOnly yes
 AddKeysToAgent yes
 
-# private ssh config
+#private ssh config
 Host github_private
 HostName github.com
 User git
