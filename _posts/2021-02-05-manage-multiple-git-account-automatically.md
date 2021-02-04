@@ -102,5 +102,5 @@ Since you should register the above information when cloning repositories, it is
 By the above process, I can manage two git account automatically :)
 
 ## Reference
-- [GitHub‚ÅsshÚ‘±‚·‚éŽè‡~ŒöŠJŒ®E”é–§Œ®‚Ì¶¬‚©‚ç~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
-- [•¡”‚ÌGitƒAƒJƒEƒ“ƒg‚ðŽè“®Ø‘Ö•s—v‚Å‰^—p‚·‚é](https://qiita.com/KeyMama/items/f9291bb125ee94b52b78)
+- [GitHubã§sshæŽ¥ç¶šã™ã‚‹æ‰‹é †~å…¬é–‹éµãƒ»ç§˜å¯†éµã®ç”Ÿæˆã‹ã‚‰~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
+- [è¤‡æ•°ã®Gitã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’æ‰‹å‹•åˆ‡æ›¿ä¸è¦ã§é‹ç”¨ã™ã‚‹](https://qiita.com/KeyMama/items/f9291bb125ee94b52b78)
