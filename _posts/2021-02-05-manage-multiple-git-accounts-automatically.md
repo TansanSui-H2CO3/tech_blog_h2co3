@@ -8,9 +8,9 @@ tags: git
 # {{ page.title }}
 {{ page.date }}
 ## Introduction
-I wanna manage multiple git account such as public (for individual) and private (for work).
+I wanna manage multiple git account such as public (for individual) and private (for work). In this post, I write how to manage two (public and private) git accounts, and you can extend the number of git accounts by applying the following processes.
 
-## Generate Two Public Keys
+## Generate Public Keys
 1. Move to folder where a key is saved.
 ```
 $ cd ~/.ssh
