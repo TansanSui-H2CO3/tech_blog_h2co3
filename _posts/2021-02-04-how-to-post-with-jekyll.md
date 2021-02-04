@@ -6,8 +6,9 @@ tags: jekyll
 ---
 
 # {{ page.title }}
+{{ page.date }}
 ## Introduction
-Jekyll is one of the template which can be used in GitHub.io.
+Jekyll is one of the template which can be used in GitHub.io, and this tech blog is also structured with jekyll.
 
 ## Folder Structure
 ```
@@ -41,20 +42,34 @@ YYYY-MM-DD-Title-Of-Post.html
 - YYYY: year
 - MM: month
 - DD: day
+- Title-Of-Post: title of post
 
-As you can see, it is not allowed to use `_` as spaces. `-` is only accepted.
-### Markdown header
-To reflect the theme of Jekyll, you must write the following header in your files of post.
+As you can see, it is not allowed to use `_` as spaces. `-` is only accepted. In addition, the post is published as `{base-link}/YYYY/MM/DD/Title-Of-Post.html`
+### Head of Files of Post
+To reflect the theme of jekyll and to add some features to posts, you must write the following header in your files of post.
 ```
 ---
 layout: default
 title: title of post
 date: YYYY-MM-DD hh:mm:ss -0000
-categories: CATEGORY-1 CATEGORY-2 (Optional)
-tags: TAG-1 TAG-2 (Optional)
+categories: CATEGORY-1 CATEGORY-2
+tags: TAG-1 TAG-2
+permalink: /hoge
 ---
 ```
-
+- layout
+    - Reflecting the theme of your `_layout/default.html`
+- title
+    - Title of a new post
+- date
+    - Date of posting
+- categories
+    - You can set categories of the new post. 
+    - If you write `categories: hoge fuga`, the new post is published as `{base-link}/hoge/huga/YYYY/MM/DD/Title-Of-Post.html`
+- tags
+    - You can set tags of the new post like categories, but URL of the new post is not changed.
+- permalink
+    - You can set any URL. If you write `permalink: /hoge`, the new post is published as `{base-link}/hoge`.
 ## Refering the Other Posts
 
 # Conclusion

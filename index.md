@@ -6,7 +6,7 @@ title: Top Page
 # {{ page.title }}
 ## Introduction
 
-## Recent Post
+## Recent 5 Posts
 <ul>
     {% for post in site.posts limit:5 %}
         <li>
