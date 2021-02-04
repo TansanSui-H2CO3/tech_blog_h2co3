@@ -79,3 +79,4 @@ permalink: /hoge
 ## Reference
 - [Adding a new post to your site](https://docs.github.com/en/github/working-with-github-pages/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site)
 - [GitHub PagesからJekyllでブログ作る時にやったこと。](https://hayateasdf.hatenablog.com/entry/2018/08/09/182327)
+- [Jekyll • シンプルで、ブログのような、静的サイト](http://jekyllrb-ja.github.io/)
