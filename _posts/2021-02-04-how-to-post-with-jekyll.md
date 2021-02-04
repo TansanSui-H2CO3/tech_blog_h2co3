@@ -2,9 +2,10 @@
 layout: default
 title: How To Post With Jekyll
 date: 2021-02-04 04:23:00 -0900
+tags: jekyll markdown
 ---
 
-# How To Post With Jekyll
+# {{ page.title }}
 ## Introduction
 Jekyll is one of the template which can be used in GitHub.io.
 
