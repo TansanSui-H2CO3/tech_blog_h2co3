@@ -1,20 +1,13 @@
 ---
 layout: default
-title: Top Page
+title: Archives
+permalink: /archives
 ---
-
 # {{ page.title }}
-## Introduction
-
-## Recent Post
 <ul>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts %}
         <li>
             {{ post.date | date: "%Y-%m-%d %H:%M:%S" }} - <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
 </ul>
-
-## Search Posts
-- [Archives](/archives)
-- Tags: []()
