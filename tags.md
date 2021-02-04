@@ -4,7 +4,7 @@ title: Tags
 permalink: /tags
 ---
 
-# {{ page.titel }}
+# {{ page.title }}
 <ul>
     {% for tag in site.tags %}
         <li>
@@ -12,3 +12,13 @@ permalink: /tags
         </li>
     {% endfor %}
 </ul>
+{% for tag in site.tags %}
+<h2>{{ tag[0] }}</h2>
+<ul>
+    {% for post in tag[1] %}
+        <li>
+            {{ post.date | date: "%Y-%m-%d %H:%M:%S" }} - <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endfor %}
