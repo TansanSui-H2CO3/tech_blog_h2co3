@@ -14,3 +14,6 @@ title: Top Page
         </li>
     {% endfor %}
 </ul>
+
+## test include
+{% include test.md %}
