@@ -3,7 +3,7 @@ layout: default
 title: Top Page
 ---
 
-# Top Page
+# {{ page.title }}
 ## Introduction
 
 ## Post List

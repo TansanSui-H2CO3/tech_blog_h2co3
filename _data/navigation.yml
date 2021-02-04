@@ -1,0 +1,5 @@
+sidebar:
+  - title: "Parent 1"
+    children:
+      - title: "child 1"
+        url: /
