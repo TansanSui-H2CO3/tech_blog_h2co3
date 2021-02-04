@@ -1,11 +1,8 @@
 theme: jekyll-theme-minimal
 title: TECH BLOG
-author: TansanSui-H2CO3
+author:
+  name: TansanSui-H2CO3
+  avatar: assets/img/tansansui.png
 description: Make It Easy Togather
 google_analytics: UA-188939680-1
 logo: assets/img/tansansui.png
-avatar: assets/img/tansansui.png
-menu:
-  home: /
-  archives: /archives
-  tags: /tags
