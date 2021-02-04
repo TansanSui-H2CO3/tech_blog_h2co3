@@ -71,11 +71,11 @@ permalink: /hoge
 - permalink
     - You can set any URL. If you write `permalink: /hoge`, the new post is published as `{base-link}/hoge`.
 
-## Refering Images
-## Refering the Other Posts
+### Refering Images
+### Refering the Other Posts
 
-# Conclusion
+## Conclusion
 
-# Reference
+## Reference
 - [Adding a new post to your site](https://docs.github.com/en/github/working-with-github-pages/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site)
 - [GitHub PagesからJekyllでブログ作る時にやったこと。](https://hayateasdf.hatenablog.com/entry/2018/08/09/182327)
