@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: default
 title: How To Post With Jekyll
 date: 2021-02-04 04:23:00 -0900
 tags: jekyll
