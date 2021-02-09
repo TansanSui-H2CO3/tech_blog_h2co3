@@ -2,15 +2,34 @@
     <head>
         <title>{{ page.title }} | {{ site.title }}</title>
     </head>
-    <body>
-        <header>
-            header
+    <body style="margin: 0%;">
+        <header style="height: 50px; width: 100%; background-color: aquamarine; position: fixed;">
+            <ul>
+                <li style="display: inline-block; vertical-align: top;"><img src="{{ site.logo }}" id="logo"></li>
+                <li style="display: inline-block; vertical-align: top;"><span id="title">Tansan Sui - DEMO</span></li>
+                <li style="display: inline-block; vertical-align: top;"><span id="top">Top</span></li>
+                <li style="display: inline-block; vertical-align: top;">Posts
+                    <ul style="list-style: none;">
+                        <li><span style="display: none;" id="archives">Archives</span></li>
+                        <li><span style="display: none;" id="tags">Tags</span></li>
+                    </ul>
+                </li>
+                <li style="display: inline-block; vertical-align: top;"><span id="links">Links</span>
+                    <ul style="list-style: none;">
+                        <li style="display: none;">GitHub</li>
+                        <li style="display: none;">Twitter</li>
+                        <li style="display: none;">YouTube</li>
+                    </ul>
+                </li>
+            </ul>
         </header>
+        <div class="header padding" style="height: 50px; width: 100%;"></div>
+        
         <div id="main-contents">
             {{ content }}
         </div>
+        
         <footer>
-            footer
         </footer>
     </body>
 </html>
