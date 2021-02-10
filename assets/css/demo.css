@@ -9,7 +9,7 @@ header {
     position: fixed;
 }
 
-#logo {
+header .logo {
     height: 50px;
 }
 
