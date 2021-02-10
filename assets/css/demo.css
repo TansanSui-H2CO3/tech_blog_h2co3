@@ -9,6 +9,10 @@ header {
     position: fixed;
 }
 
+#logo {
+    height: 50px;
+}
+
 .main-list li {
     display: inline-block;
     vertical-align: top;
