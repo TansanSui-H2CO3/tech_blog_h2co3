@@ -10,7 +10,7 @@ header {
 }
 
 header .logo {
-    height: 50px;
+    max-height: 50px;
 }
 
 .main-list li {
