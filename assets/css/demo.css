@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed;
+}
+
+.main-list li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sub-list {
+    list-style: none;
+    display: none;
+}
+
+.sub-list li {
+    vertical-align: top;
+}
+
+.main-list li:hover .sub-list {
+    display: block;
+}

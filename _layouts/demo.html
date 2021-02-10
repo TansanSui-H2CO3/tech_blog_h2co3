@@ -1,24 +1,25 @@
 <html>
     <head>
         <title>{{ page.title }} | {{ site.title }}</title>
+        <link rel="stylesheet" href="assets/css/demo.css">
     </head>
     <body style="margin: 0%;">
-        <header style="height: 50px; width: 100%; background-color: aquamarine; position: fixed;">
-            <ul>
-                <li style="display: inline-block; vertical-align: top;"><img src="{{ site.logo }}" id="logo"></li>
-                <li style="display: inline-block; vertical-align: top;"><span id="title">Tansan Sui - DEMO</span></li>
-                <li style="display: inline-block; vertical-align: top;"><span id="top">Top</span></li>
-                <li style="display: inline-block; vertical-align: top;">Posts
-                    <ul style="list-style: none;">
-                        <li><span style="display: none;" id="archives">Archives</span></li>
-                        <li><span style="display: none;" id="tags">Tags</span></li>
+        <header>
+            <ul class="main-list">
+                <li><img src="{{ site.logo }}" id="logo"></li>
+                <li><span id="title">Tansan Sui - DEMO</span></li>
+                <li><span id="top">Top</span></li>
+                <li>Posts
+                    <ul class="sub-list" style="list-style: none;">
+                        <li><span id="archives">Archives</span></li>
+                        <li><span id="tags">Tags</span></li>
                     </ul>
                 </li>
                 <li style="display: inline-block; vertical-align: top;"><span id="links">Links</span>
-                    <ul style="list-style: none;">
-                        <li style="display: none;">GitHub</li>
-                        <li style="display: none;">Twitter</li>
-                        <li style="display: none;">YouTube</li>
+                    <ul class="sub-list" style="list-style: none;">
+                        <li>GitHub</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
                     </ul>
                 </li>
             </ul>
