@@ -19,14 +19,15 @@ header .main-list .logo {
 }
 
 .sub-list {
+    position: absolute;
     list-style: none;
-    display: none;
+    padding: 0%;
 }
 
 .sub-list li {
-    /* vertical-align: top; */
+    display: none;
 }
 
-.main-list li:hover .sub-list {
+.main-list li:hover .sub-list li {
     display: block;
 }
