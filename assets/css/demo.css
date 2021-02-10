@@ -9,7 +9,7 @@ header {
     position: fixed;
 }
 
-header .main-list .logo {
+header .logo {
     max-height: 50px;
 }
 
