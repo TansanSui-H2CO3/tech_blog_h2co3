@@ -24,7 +24,7 @@ header .main-list .logo {
 }
 
 .sub-list li {
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 
 .main-list li:hover .sub-list {
