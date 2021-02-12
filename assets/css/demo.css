@@ -28,6 +28,14 @@ header .main-list .logo {
     display: none;
 }
 
+.sub-list .links-logo {
+    height: 100%;
+}
+
+.sub-list li:hover {
+    background-color: bisque;
+}
+
 .main-list li:hover .sub-list li {
     display: block;
 }
