@@ -32,6 +32,12 @@ header .main-list .logo {
 
 .sub-list li {
     display: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.sub-list li a {
+    text-decoration: none;
 }
 
 .sub-list .links-logo {
