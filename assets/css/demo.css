@@ -29,7 +29,7 @@ header .main-list .logo {
 }
 
 .sub-list .links-logo {
-    height: 100%;
+    height: 20px;
 }
 
 .sub-list li:hover {
